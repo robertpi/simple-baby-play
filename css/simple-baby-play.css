@@ -1,0 +1,7 @@
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+    display: table-cell;
+    vertical-align: middle
+}
