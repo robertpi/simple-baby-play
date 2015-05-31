@@ -15,7 +15,6 @@ window.onload = function() {
     {
 		if(elems[i].className == "col")
 		{
-			alert("setting");
 			elems[i].onclick = function() { colorElement(this); }
 		}
     }
