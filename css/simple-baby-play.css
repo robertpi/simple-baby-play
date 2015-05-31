@@ -1,7 +1,40 @@
 #main {
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em
-    display: table-cell;
-    vertical-align: middle
+	width: 100%;
+	height: 100%
 }
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+	width: 23.8%;
+	text-align: center;
+	
+    height: 100px;
+    width: 100px;
+    background: red;
+    margin:10px;
+    display:block;
+}
+.col:first-child { margin-left: 0; }
+
+.content {
+    height: 100px;
+    width: 100px;
+    display:table-cell;
+    vertical-align:middle;    
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
